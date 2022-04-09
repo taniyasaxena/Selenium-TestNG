@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="8" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Admin test case executed!!]]>
+    </line>
+    <line>
+      <![CDATA[Admin test case executed!!]]>
+    </line>
+  </reporter-output>
+  <suite name="Regrassion_Suite" duration-ms="19312" started-at="2022-04-03T12:33:37 IST" finished-at="2022-04-03T12:33:57 IST">
+    <groups>
+      <group name="LoginModule">
+        <method signature="Login_Mutualfund.LoginInvalidUser()[pri:3, instance:com.selenium.testing.Login_Mutualfund@72b6cbcc]" name="LoginInvalidUser" class="com.selenium.testing.Login_Mutualfund"/>
+        <method signature="Login_Mutualfund.LoginJsmith()[pri:2, instance:com.selenium.testing.Login_Mutualfund@72b6cbcc]" name="LoginJsmith" class="com.selenium.testing.Login_Mutualfund"/>
+        <method signature="Login_Mutualfund.LoginTuser()[pri:1, instance:com.selenium.testing.Login_Mutualfund@72b6cbcc]" name="LoginTuser" class="com.selenium.testing.Login_Mutualfund"/>
+        <method signature="SoftAssert_Code.LogOut()[pri:1, instance:com.selenium.testing.SoftAssert_Code@3712b94]" name="LogOut" class="com.selenium.testing.SoftAssert_Code"/>
+        <method signature="SoftAssert_Code.LoginAdmin()[pri:0, instance:com.selenium.testing.SoftAssert_Code@3712b94]" name="LoginAdmin" class="com.selenium.testing.SoftAssert_Code"/>
+        <method signature="HardAssert.LogOut()[pri:1, instance:com.selenium.testing.HardAssert@536aaa8d]" name="LogOut" class="com.selenium.testing.HardAssert"/>
+        <method signature="HardAssert.LoginAdmin()[pri:0, instance:com.selenium.testing.HardAssert@536aaa8d]" name="LoginAdmin" class="com.selenium.testing.HardAssert"/>
+      </group> <!-- LoginModule -->
+    </groups>
+    <test name="Test case 3" duration-ms="12500" started-at="2022-04-03T12:33:37 IST" finished-at="2022-04-03T12:33:50 IST">
+      <class name="com.selenium.testing.HardAssert">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.selenium.testing.HardAssert@536aaa8d]" name="preCondition" is-config="true" duration-ms="2498" started-at="2022-04-03T12:33:37 IST" finished-at="2022-04-03T12:33:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="LoginAdmin()[pri:0, instance:com.selenium.testing.HardAssert@536aaa8d]" name="LoginAdmin" duration-ms="5551" started-at="2022-04-03T12:33:40 IST" description="Test case to verify that login funcationality with &#039;Admin&#039;user" finished-at="2022-04-03T12:33:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAdmin -->
+        <test-method status="PASS" signature="LogOut()[pri:1, instance:com.selenium.testing.HardAssert@536aaa8d]" name="LogOut" duration-ms="4340" started-at="2022-04-03T12:33:45 IST" description="Test case to verify that Logoutfuncationality with &#039;Admin&#039;user" finished-at="2022-04-03T12:33:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Admin test case executed!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.selenium.testing.HardAssert@536aaa8d]" name="postCondition" is-config="true" duration-ms="101" started-at="2022-04-03T12:33:50 IST" finished-at="2022-04-03T12:33:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.selenium.testing.HardAssert -->
+    </test> <!-- Test case 3 -->
+    <test name="Test case 2" duration-ms="12563" started-at="2022-04-03T12:33:37 IST" finished-at="2022-04-03T12:33:50 IST">
+      <class name="com.selenium.testing.SoftAssert_Code">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.selenium.testing.SoftAssert_Code@3712b94]" name="preCondition" is-config="true" duration-ms="2417" started-at="2022-04-03T12:33:37 IST" finished-at="2022-04-03T12:33:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="LoginAdmin()[pri:0, instance:com.selenium.testing.SoftAssert_Code@3712b94]" name="LoginAdmin" duration-ms="5626" started-at="2022-04-03T12:33:40 IST" description="Test case to verify that login funcationality with &#039;Admin&#039;user" finished-at="2022-04-03T12:33:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAdmin -->
+        <test-method status="PASS" signature="LogOut()[pri:1, instance:com.selenium.testing.SoftAssert_Code@3712b94]" name="LogOut" duration-ms="4390" started-at="2022-04-03T12:33:45 IST" description="Test case to verify that Logoutfuncationality with &#039;Admin&#039;user" finished-at="2022-04-03T12:33:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Admin test case executed!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.selenium.testing.SoftAssert_Code@3712b94]" name="postCondition" is-config="true" duration-ms="72" started-at="2022-04-03T12:33:50 IST" finished-at="2022-04-03T12:33:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.selenium.testing.SoftAssert_Code -->
+    </test> <!-- Test case 2 -->
+    <test name="Test case 1" duration-ms="19312" started-at="2022-04-03T12:33:37 IST" finished-at="2022-04-03T12:33:57 IST">
+      <class name="com.selenium.testing.Login_Mutualfund">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.selenium.testing.Login_Mutualfund@72b6cbcc]" name="preCondition" is-config="true" duration-ms="2543" started-at="2022-04-03T12:33:37 IST" finished-at="2022-04-03T12:33:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="LoginTuser()[pri:1, instance:com.selenium.testing.Login_Mutualfund@72b6cbcc]" name="LoginTuser" duration-ms="7177" started-at="2022-04-03T12:33:40 IST" description="Test case to verify that login funcationality with &#039;tuser&#039;user" finished-at="2022-04-03T12:33:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTuser -->
+        <test-method status="PASS" signature="LoginJsmith()[pri:2, instance:com.selenium.testing.Login_Mutualfund@72b6cbcc]" name="LoginJsmith" duration-ms="4968" started-at="2022-04-03T12:33:47 IST" description="Test case to verify that login funcationality with &#039;jsmith&#039;user" finished-at="2022-04-03T12:33:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginJsmith -->
+        <test-method status="PASS" signature="LoginInvalidUser()[pri:3, instance:com.selenium.testing.Login_Mutualfund@72b6cbcc]" name="LoginInvalidUser" duration-ms="4530" started-at="2022-04-03T12:33:52 IST" description="Test case to verify that login funcationality with &#039;Invalid&#039;user" finished-at="2022-04-03T12:33:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidUser -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.selenium.testing.Login_Mutualfund@72b6cbcc]" name="postCondition" is-config="true" duration-ms="87" started-at="2022-04-03T12:33:57 IST" finished-at="2022-04-03T12:33:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.selenium.testing.Login_Mutualfund -->
+    </test> <!-- Test case 1 -->
+  </suite> <!-- Regrassion_Suite -->
+</testng-results>
